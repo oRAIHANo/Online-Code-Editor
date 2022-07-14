@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE Online Code Editor</title>
+    <script src="https://kit.fontawesome.com/4f1f46d5e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR  -->
+
+    <div class="nav">
+        <!-- LOGO -->
+        <div class="logo">
+            <i class="fa-solid fa-gear"></i>
+            <i class="fa-solid fa-r"></i>
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+    </div>
+
+    <!-- TEXTAREA WHERE USER WRIGHTS HE/HER HTML,CSS,JAVASCRIPT -->
+
+    <div class="editor">
+        <p id="textarea-des">HTML</p>
+        <textarea id="html-code"></textarea>
+        <p id="textarea-des">CSS</p>
+        <textarea id="css-code"></textarea>
+        <p id="textarea-des">JAVASCRIPT</p>
+        <textarea id="js-code"></textarea>
+    </div>
+
+    <!-- AREA WHERE OUTPUT IS DISPLAYED -->
+    <div class="output">
+        <iframe id="output"></iframe>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
